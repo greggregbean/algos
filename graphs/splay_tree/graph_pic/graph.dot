@@ -1,0 +1,19 @@
+digraph { 
+93824992330016[shape=record, fillcolor = moccasin, style = filled, label = " { Data:6 |  Addr:0x55555556c120 |  Pred:0 | {Left:0x55555556c0f0 | Right:0 }} " ]
+93824992330016->93824992329968;
+null93824992330016r [shape=point]
+93824992330016-> null93824992330016r;
+93824992329968[shape=record, fillcolor = moccasin, style = filled, label = " { Data:5 |  Addr:0x55555556c0f0 |  Pred:0x55555556c120 | {Left:0x55555556c0c0 | Right:0 }} " ]
+93824992329968->93824992329920;
+null93824992329968r [shape=point]
+93824992329968-> null93824992329968r;
+93824992329920[shape=record, fillcolor = moccasin, style = filled, label = " { Data:4 |  Addr:0x55555556c0c0 |  Pred:0x55555556c0f0 | {Left:0x55555556beb0 | Right:0 }} " ]
+93824992329920->93824992329392;
+null93824992329920r [shape=point]
+93824992329920-> null93824992329920r;
+93824992329392[shape=record, fillcolor = moccasin, style = filled, label = " { Data:3 |  Addr:0x55555556beb0 |  Pred:0x55555556c0c0 | {Left:0 | Right:0 }} " ]
+null93824992329392l [shape=point]
+93824992329392-> null93824992329392l;
+null93824992329392r [shape=point]
+93824992329392-> null93824992329392r;
+}
